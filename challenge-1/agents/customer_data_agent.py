@@ -13,6 +13,7 @@ load_dotenv(override=True)
 
 # Configuration
 project_endpoint = os.environ.get("AI_FOUNDRY_PROJECT_ENDPOINT")
+print(project_endpoint)
 model_deployment_name = os.environ.get("MODEL_DEPLOYMENT_NAME")
 cosmos_endpoint = os.environ.get("COSMOS_ENDPOINT")
 cosmos_key = os.environ.get("COSMOS_KEY")
